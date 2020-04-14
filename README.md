@@ -86,7 +86,7 @@ Rules:
 
 Please go checkout: [pomber/covid19](https://github.com/pomber/covid19).
 
-The idea, a lot of my GitHub Action setup, and other files is from that repo.
+The idea, a lot of my GitHub Action setup, and other files are from that repo.
 
 pomber made a timeseries.json for every country/territory using 
 [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19)
