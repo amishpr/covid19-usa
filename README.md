@@ -54,6 +54,8 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 
 Here is an example of using the data with JavaScript:
 
+https://jsfiddle.net/xk3buwq4/
+
 ```javascript
 fetch("https://amishpr.github.io/covid19-usa/timeseries.json")
   .then(response => response.json())
