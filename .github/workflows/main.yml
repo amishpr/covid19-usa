@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [12.x]
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
@@ -28,6 +28,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: Install modules and run js file to extract
-        run: npm install && npm run start
+        run: npm install && npm run start && ls && cd ./csv && ls
         env:
           CI: true
