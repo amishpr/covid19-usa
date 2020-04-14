@@ -1,6 +1,10 @@
 # COVID-19 USA
 ![Main CI](https://github.com/amishpr/covid19-usa/workflows/Main%20CI/badge.svg)
 
+<span>
+<a href="https://www.buymeacoffee.com/amish" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height=50px""></a>
+</span>
+
 Converted the `us-states.csv` file from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) into a JSON file.
 
 View JSON here: https://amishpr.github.io/covid19-usa/timeseries.json
