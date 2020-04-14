@@ -28,6 +28,19 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: Install modules and run js file to extract
-        run: npm install && npm run start && cd ./csv && ls
+        run: npm install && npm run start
         env:
           CI: true
+          
+      - name: Commit timeseries.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/timeseries.json
+          git diff-index --quiet HEAD || git commit -m "Updated timeseries.json" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          directory: ./
