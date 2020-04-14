@@ -2,7 +2,7 @@ name: Main CI
   
 on:
   schedule:
-    - cron: "0 /4 * * *"
+   - cron: "15 0,2,12 * * *"
 
 jobs:
   extract_job:
