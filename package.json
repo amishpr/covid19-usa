@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "run": "node main.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "csvtojson": "^2.0.10",
