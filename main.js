@@ -1,7 +1,7 @@
 const csv = require('csvtojson')
 const writeJsonFile = require('write-json-file');
 
-const csvFilePath = './cvs/us-states.csv'
+const csvFilePath = './csv/us-states.csv'
 
 function main() {
     csv().fromFile(csvFilePath)
