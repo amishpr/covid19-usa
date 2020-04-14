@@ -61,7 +61,7 @@ fetch("https://amishpr.github.io/covid19-usa/timeseries.json")
   .then(response => response.json())
   .then(data => {
     data["New York"].forEach(({ date, fips, cases, deaths }) =>
-      console.log(`${date} active cases: ${cases - deaths}`)
+      console.log(`${date} | Active Cases: ${cases - deaths}`)
     );
   });
 ```
