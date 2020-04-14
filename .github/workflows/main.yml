@@ -1,8 +1,8 @@
 name: Main CI
   
-on: [push]
-#   schedule:
-#     - cron: "15 0,2,12 * * *"
+on:
+  schedule:
+   - cron: "0 0,4,8,12,16,20 * * *"
 
 jobs:
   extract_job:
@@ -33,7 +33,7 @@ jobs:
           CI: true 
       
       - name: Run main.js to extract JSON
-        run: cd ./csv && ls && cd .. && ls && npm run start
+        run: npm run start
           
       - name: Commit timeseries.json
         run: |
