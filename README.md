@@ -78,9 +78,10 @@ Rules:
 * Project must be Open Source
 * On your project cite [amishpr/covid19-usa](https://github.com/amishpr/covid19-usa) as a data source (with a link) as well as the [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) 
 * Use the following format:
- ```
- [project-name](your-project-url) ([repo](repo-url)): description
-```
+	```markdown
+ 	[PROJECT NAME](PROJECT URL) ([repo](REPO URL)): DESCRIPTION
+	```
+	* **Note:** Replace UPPER CASED values with your own
 
 ## Inspiration / Thank you
 
