@@ -1,0 +1,33 @@
+name: Main CI
+  
+on: [push]
+#   schedule:
+#     - cron: "15 0,2,12 * * *"
+
+jobs:
+  extract_job:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          path: ./
+      
+      - name: Checkout nytimes repo
+        uses: actions/checkout@v2
+        with:
+          repository: nytimes/covid-19-data
+          path: ./csv
+     
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+          
+      - name: Install modules and run js file to extract
+        run: npm install && npm run start && cd ./csv && ls
+        env:
+          CI: true
