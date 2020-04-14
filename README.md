@@ -1,6 +1,5 @@
 # COVID-19 USA
-
-![.github/workflows/main.yml](https://github.com/amishpr/covid19-usa/workflows/.github/workflows/main.yml/badge.svg)
+![Main CI](https://github.com/amishpr/covid19-usa/workflows/Main%20CI/badge.svg)
 
 Converted the `us-states.csv` file from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) into a JSON file.
 
