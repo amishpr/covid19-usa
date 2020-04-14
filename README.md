@@ -66,11 +66,11 @@ fetch("https://amishpr.github.io/covid19-usa/timeseries.json")
   });
 ```
 
-## Projects using this dataset
+## Projects using this dataset ([➕Add Yours](#adding-your-project))
  [COVID-19 Tracker](https://www.covid-19tracker.app) ([repo](https://github.com/amishpr/covid-19tracker)): Displays current information about
  COVID-19 cases worldwide and by state for USA.
 
-## Adding your project
+## Adding your project 
 
 Please make a pull request adding a link to your project in this `README.MD`.
 
@@ -82,6 +82,8 @@ Rules:
  	[PROJECT NAME](PROJECT URL) ([repo](REPO URL)): DESCRIPTION
 	```
 	* **Note:** Replace UPPER CASED values with your own
+	
+[➕Add a new project to the list](https://github.com/amishpr/covid19-usa/edit/master/README.md)
 
 ## Inspiration / Thank you
 
