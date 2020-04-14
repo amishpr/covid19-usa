@@ -27,10 +27,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           
-      - name: Install modules and run js file to extract
-        run: cd ./csv && ls && cd .. && npm install && npm run start
+      - name: Install modules
+        run: npm install
         env:
-          CI: true
+          CI: true 
+      
+      - name: Run main.js to extract JSON
+        run: cd ./cvs && ls && cd .. && ls && npm run start
           
       - name: Commit timeseries.json
         run: |
