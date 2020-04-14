@@ -26,8 +26,8 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 {
 ...
     "New York": [
-        {
-	        "date": "2020-03-01",
+            {
+	            "date": "2020-03-01",
 		    "fips": "36",
 		    "cases": "1",
 		    "deaths": "0"
@@ -39,7 +39,7 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 		    "deaths": "0"
 	    },
 	    {
-	        "date": "2020-03-03",
+	            "date": "2020-03-03",
 		    "fips": "36",
 		    "cases": "2",
 		    "deaths": "0"
