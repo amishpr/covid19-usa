@@ -1,0 +1,33 @@
+name: Main CI
+  
+on:
+  schedule:
+    - cron: "15 0,2,12 * * *"
+
+jobs:
+  extract:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+      - name: Checkout Repo
+      - uses: actions/checkout@v2
+      
+      - name: Checkout nytimes repo
+        uses: actions/checkout@v2
+        with:
+          repository: CSSEGISandData/COVID-19
+          path: ./csv
+     
+      - name: Use Node.js ${{ matrix.node-version }}
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm run start
+        env:
+          CI: true
