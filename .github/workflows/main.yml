@@ -33,7 +33,7 @@ jobs:
           CI: true 
       
       - name: Run main.js to extract JSON
-        run: cd ./cvs && ls && cd .. && ls && npm run start
+        run: cd ./csv && ls && cd .. && ls && npm run start
           
       - name: Commit timeseries.json
         run: |
