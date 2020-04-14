@@ -19,7 +19,7 @@ jobs:
       - name: Checkout nytimes repo
         uses: actions/checkout@v2
         with:
-          repository: CSSEGISandData/COVID-19
+          repository: nytimes/covid-19-data
           path: ./csv
      
       - name: Use Node.js ${{ matrix.node-version }}
@@ -28,6 +28,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: Install modules and run js file to extract
-        run: npm install && npm run start && ls && cd ./csv && ls
+        run: npm install && npm run start && cd ./csv && ls
         env:
           CI: true
