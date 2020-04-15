@@ -57,6 +57,23 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 }
 ```
 
+#### Example
+
+Here is an example of using the data with JavaScript:
+
+https://jsfiddle.net/2poq61zj/
+
+```javascript
+fetch("https://amishpr.github.io/covid19-usa/timeseries.json")
+  .then(response => response.json())
+  .then(data => {
+    data."New York".forEach(({ date, fips, cases, deaths }) =>{
+      console.log(`${date} | Active Cases: ${cases - deaths}`);
+      console.log(data);
+    });
+  });
+```
+
 ### timeseries-counties.json
 The JSON is grouped by state and then county with each county having an array of objects with the following information:
 
@@ -108,11 +125,22 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 }
 ```
 
-### Example
+#### Example
 
 Here is an example of using the data with JavaScript:
 
-TBA
+https://jsfiddle.net/tg97r6yu/1/
+
+```javascript
+fetch("https://amishpr.github.io/covid19-usa/timeseries-counties.json")
+  .then(response => response.json())
+  .then(data => {
+    data.Washington.Snohomish.forEach(({ date, fips, cases, deaths }) =>{
+      	console.log(`${date} | Active Cases: ${cases - deaths}`);
+  	console.log(data);
+    });
+  });
+```
 
 ## Projects using this dataset ([➕Add Yours](#adding-your-project))
  [COVID-19 Tracker](https://www.covid-19tracker.app) ([repo](https://github.com/amishpr/covid-19tracker)): Displays current information about
