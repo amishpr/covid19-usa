@@ -61,13 +61,13 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 
 Here is an example of using the data with JavaScript:
 
-https://jsfiddle.net/2poq61zj/
+https://jsfiddle.net/69qbudfn/
 
 ```javascript
 fetch("https://amishpr.github.io/covid19-usa/timeseries.json")
   .then(response => response.json())
   .then(data => {
-    data."New York".forEach(({ date, fips, cases, deaths }) =>{
+    data."New York".forEach(({ date, fips, cases, deaths }) => {
       console.log(`${date} | Active Cases: ${cases - deaths}`);
       console.log(data);
     });
@@ -129,13 +129,13 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 
 Here is an example of using the data with JavaScript:
 
-https://jsfiddle.net/tg97r6yu/1/
+https://jsfiddle.net/0tw5hf4m/
 
 ```javascript
 fetch("https://amishpr.github.io/covid19-usa/timeseries-counties.json")
   .then(response => response.json())
   .then(data => {
-    data.Washington.Snohomish.forEach(({ date, fips, cases, deaths }) =>{
+    data.Washington.Snohomish.forEach(({ date, fips, cases, deaths }) => {
       	console.log(`${date} | Active Cases: ${cases - deaths}`);
   	console.log(data);
     });
