@@ -43,7 +43,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ./docs/timeseries.json
-          git diff-index --quiet HEAD || git commit -m "Updated timeseries.json" -a
+          git add ./docs/timeseries-counties.json
+          git diff-index --quiet HEAD || git commit -m "Updated timeseries.json and timeseries-counties.json" -a
           
       - name: Push changes
         uses: ad-m/github-push-action@master
