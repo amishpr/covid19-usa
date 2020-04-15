@@ -5,13 +5,20 @@
 <a href="https://www.buymeacoffee.com/amish" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height=50px""></a>
 </span>
 
-Converted the `us-states.csv` file from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) into a JSON file.
+This project checks [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) every 4 hours to see if the `us-states.csv` and `us-counties.csv` have been updated and then converts them to a JSON format and deploys it to a website for public use.
 
-View JSON here: https://amishpr.github.io/covid19-usa/timeseries.json
+* Converted the `us-states.csv` file from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) into a JSON file.
+
+	* View JSON here: https://amishpr.github.io/covid19-usa/timeseries.json
+
+* Converted the `us-counties.csv` file from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) into a JSON file.
+
+	* View JSON here: https://amishpr.github.io/covid19-usa/timeseries-counties.json
 
 ## JSON
 
-The JSON grouped by state with each having an array of objects with the following information:
+### timeseries.json
+The JSON is grouped by state with each having an array of objects with the following information:
 
 * Date
 * [FIPS Code](https://www.census.gov/quickfacts/fact/note/US/fips)
@@ -50,21 +57,62 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 }
 ```
 
-## Use the JSON data
+### timeseries-counties.json
+The JSON is grouped by state and then county with each county having an array of objects with the following information:
+
+* Date
+* [FIPS Code](https://www.census.gov/quickfacts/fact/note/US/fips)
+* Confirmed Cases
+* Deaths
+
+**Note:** 
+
+Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of the data starts after March 1st, 2020.
+
+```json
+{
+    "Washington": {
+		"Snohomish": [
+			{
+				"date": "2020-01-21",
+				"fips": "53061",
+				"cases": "1",
+				"deaths": "0"
+			},
+			{
+				"date": "2020-01-22",
+				"fips": "53061",
+				"cases": "1",
+				"deaths": "0"
+			},
+			...
+			]
+		"Spokane": [
+			{
+				"date": "2020-02-24",
+				"fips": "53063",
+				"cases": "4",
+				"deaths": "0"
+			},
+			{
+				"date": "2020-02-25",
+				"fips": "53063",
+				"cases": "4",
+				"deaths": "0"
+			},
+			...
+			]
+		...
+		}
+	...
+}
+```
+
+### Example
 
 Here is an example of using the data with JavaScript:
 
-https://jsfiddle.net/xk3buwq4/
-
-```javascript
-fetch("https://amishpr.github.io/covid19-usa/timeseries.json")
-  .then(response => response.json())
-  .then(data => {
-    data["New York"].forEach(({ date, fips, cases, deaths }) =>
-      console.log(`${date} | Active Cases: ${cases - deaths}`)
-    );
-  });
-```
+TBA
 
 ## Projects using this dataset ([➕Add Yours](#adding-your-project))
  [COVID-19 Tracker](https://www.covid-19tracker.app) ([repo](https://github.com/amishpr/covid-19tracker)): Displays current information about
