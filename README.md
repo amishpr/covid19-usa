@@ -86,7 +86,7 @@ Some data goes back as early as January 21st, 2020 (Ex. Washington), but most of
 				"deaths": "0"
 			},
 			...
-			]
+			],
 		"Spokane": [
 			{
 				"date": "2020-02-24",
