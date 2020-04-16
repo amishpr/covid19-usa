@@ -38,19 +38,19 @@ jobs:
       - name: Run main.js to extract JSON
         run: npm run start
 
-      - name: Make README-ADD-CSV-FILES-HERE.MD
+      - name: Make README.MD for csv folder
         run: |
           cd csv
-          echo "# Required Files \nThis project requires \`us-states.csv\` and \`us-counties.csv\` from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data). \n \nIf you wish to run this locally, please download \`us-states.csv\` and \`us-counties.csv\`, then place them in this folder. \n \nThe Github Action is setup to do this automatically and generate the \`timeseries.json\` and \`timeseries-counties.json\` file." > README-ADD-CSV-FILES-HERE.MD
+          echo -e "# Required Files \nThis project requires \`us-states.csv\` and \`us-counties.csv\` from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data). \n \nIf you wish to run this locally, please download \`us-states.csv\` and \`us-counties.csv\`, then place them in this folder. \n \nThe Github Action is setup to do this automatically and generate the \`timeseries.json\` and \`timeseries-counties.json\` file." > README.md
           cd ..
           
-      - name: Commit timeseries.json, timeseries-counties.json, README-ADD-CSV-FILES-HERE.MD
+      - name: Commit timeseries.json, timeseries-counties.json, ./csv/README.md
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ./docs/timeseries.json
           git add ./docs/timeseries-counties.json
-          git add ./csv/README-ADD-CSV-FILES-HERE.MD
+          git add ./csv/README.md
           git diff-index --quiet HEAD || git commit -m "Updated timeseries.json and timeseries-counties.json" -a
           
       - name: Push changes
