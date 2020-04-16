@@ -3,4 +3,4 @@ This project requires `us-states.csv` and `us-counties.csv` from [nytimes/covid-
  
 If you wish to run this locally, please download `us-states.csv` and `us-counties.csv`, then place them in this folder. 
  
-The Github Action is setup to do this automatically and generate the `timeseries.json` and `timeseries-counties.json` file.
+The Github Action is setup to do this automatically and will generate the `timeseries.json` and `timeseries-counties.json` files.
