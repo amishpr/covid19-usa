@@ -41,7 +41,7 @@ jobs:
       - name: Make README.MD for csv folder
         run: |
           cd csv
-          echo -e "# Required Files \nThis project requires \`us-states.csv\` and \`us-counties.csv\` from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data). \n \nIf you wish to run this locally, please download \`us-states.csv\` and \`us-counties.csv\`, then place them in this folder. \n \nThe Github Action is setup to do this automatically and generate the \`timeseries.json\` and \`timeseries-counties.json\` file." > README.md
+          echo -e "# Required Files \nThis project requires \`us-states.csv\` and \`us-counties.csv\` from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data). \n \nIf you wish to run this locally, please download \`us-states.csv\` and \`us-counties.csv\`, then place them in this folder. \n \nThe Github Action is setup to do this automatically and will generate the \`timeseries.json\` and \`timeseries-counties.json\` files." > README.md
           cd ..
           
       - name: Commit timeseries.json, timeseries-counties.json, ./csv/README.md
