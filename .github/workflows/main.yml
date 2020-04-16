@@ -44,6 +44,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ./docs/timeseries.json
           git add ./docs/timeseries-counties.json
+          git add ./csv/README-ADD-CSV-FILES-HERE.MD
           git diff-index --quiet HEAD || git commit -m "Updated timeseries.json and timeseries-counties.json" -a
           
       - name: Push changes
