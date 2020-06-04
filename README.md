@@ -1,10 +1,6 @@
 # COVID-19 USA
 ![Main CI](https://github.com/amishpr/covid19-usa/workflows/Main%20CI/badge.svg)
 
-<span>
-<a href="https://www.buymeacoffee.com/amish" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-green.png" alt="Buy Me A Coffee" height=50px""></a>
-</span>
-
 This project checks [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) every 4 hours to see if the `us-states.csv` and `us-counties.csv` have been updated and then converts them to a JSON format and deploys it to a website for public use.
 
 * Converted the `us-states.csv` file from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data) into a JSON file.
