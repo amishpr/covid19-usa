@@ -76091,20 +76091,20 @@
 		{
 			"date": "2020-10-24",
 			"fips": "66",
-			"cases": "5110",
-			"deaths": "70"
+			"cases": "5144",
+			"deaths": "72"
 		},
 		{
 			"date": "2020-10-25",
 			"fips": "66",
-			"cases": "5110",
-			"deaths": "70"
+			"cases": "5185",
+			"deaths": "72"
 		},
 		{
 			"date": "2020-10-26",
 			"fips": "66",
-			"cases": "5110",
-			"deaths": "70"
+			"cases": "5305",
+			"deaths": "76"
 		}
 	],
 	"West Virginia": [
