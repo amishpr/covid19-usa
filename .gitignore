@@ -119,3 +119,6 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore timeseries-counties.json
+docs/timeseries-counties.json
