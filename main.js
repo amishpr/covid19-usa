@@ -19,9 +19,10 @@ async function main() {
     writeJsonFile(timeSeriesFilePath, mapToJSON(convertStatesToMap(stateObjects)));
     console.log("Successfully written JSON to", timeSeriesFilePath, "! :D");
 
-    let countyObjects = await csv().fromFile(countiesFilePath);
-    writeJsonFile(timeSeriesCountiesFilePath, countyDataMapToJSON(convertCountiesToMap(countyObjects)));
-    console.log("Successfully written JSON to", timeSeriesCountiesFilePath, "! :O");
+    // Uncomment to generate timeseries-counties.json
+    // let countyObjects = await csv().fromFile(countiesFilePath);
+    // writeJsonFile(timeSeriesCountiesFilePath, countyDataMapToJSON(convertCountiesToMap(countyObjects)));
+    // console.log("Successfully written JSON to", timeSeriesCountiesFilePath, "! :O");
 }
 
 /**
