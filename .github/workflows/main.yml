@@ -44,14 +44,16 @@ jobs:
           echo -e "# Required Files \nThis project requires \`us-states.csv\` and \`us-counties.csv\` from [nytimes/covid-19-data](https://github.com/nytimes/covid-19-data). \n \nIf you wish to run this locally, please download \`us-states.csv\` and \`us-counties.csv\`, then place them in this folder. \n \nThe Github Action is setup to do this automatically and will generate the \`timeseries.json\` and \`timeseries-counties.json\` files." > README.md
           cd ..
           
-      - name: Commit timeseries.json, timeseries-counties.json, ./csv/README.md
+      # - name: Commit timeseries.json, timeseries-counties.json, ./csv/README.md
+      - name: Commit timeseries.json, ./csv/README.md
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ./docs/timeseries.json
-          git add ./docs/timeseries-counties.json
           git add ./csv/README.md
-          git diff-index --quiet HEAD || git commit -m "Updated timeseries.json and timeseries-counties.json" -a
+          git diff-index --quiet HEAD || git commit -m "Updated timeseries.json" -a
+       # git add ./docs/timeseries-counties.json   
+       # git diff-index --quiet HEAD || git commit -m "Updated timeseries.json and timeseries-counties.json" -a
           
       - name: Push changes
         uses: ad-m/github-push-action@master
