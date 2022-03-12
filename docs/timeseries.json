@@ -116627,13 +116627,13 @@
 		{
 			"date": "2022-03-08",
 			"fips": "40",
-			"cases": "1024471",
+			"cases": "1026472",
 			"deaths": "13278"
 		},
 		{
 			"date": "2022-03-09",
 			"fips": "40",
-			"cases": "1024471",
+			"cases": "1026472",
 			"deaths": "13278"
 		},
 		{
@@ -129821,56 +129821,56 @@
 		{
 			"date": "2022-03-02",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-03",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-04",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-05",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-06",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-07",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-08",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "134678",
+			"deaths": "1321"
 		},
 		{
 			"date": "2022-03-09",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "135086",
+			"deaths": "1324"
 		},
 		{
 			"date": "2022-03-10",
 			"fips": "11",
-			"cases": "134623",
-			"deaths": "1319"
+			"cases": "135086",
+			"deaths": "1324"
 		}
 	],
 	"Kansas": [
@@ -243809,949 +243809,949 @@
 		{
 			"date": "2021-10-04",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-05",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-06",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-07",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-08",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-09",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-10",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-11",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-12",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-13",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-14",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-15",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-16",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-17",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-18",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-19",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-20",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-21",
 			"fips": "60",
-			"cases": "1",
+			"cases": "3",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-22",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-23",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-24",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-25",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-26",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-27",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-28",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-29",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-30",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-10-31",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-01",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-02",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-03",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-04",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-05",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-06",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-07",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-08",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-09",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-10",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-11",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-12",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-13",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-14",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-15",
 			"fips": "60",
-			"cases": "1",
+			"cases": "4",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-16",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-17",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-18",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-19",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-20",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-21",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-22",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-23",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-24",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-25",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-26",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-27",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-28",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-29",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-11-30",
 			"fips": "60",
-			"cases": "1",
+			"cases": "5",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-01",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-02",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-03",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-04",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-05",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-06",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-07",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-08",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-09",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-10",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-11",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-12",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-13",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-14",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-15",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-16",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-17",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-18",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-19",
 			"fips": "60",
-			"cases": "1",
+			"cases": "10",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-20",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-21",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-22",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-23",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-24",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-25",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-26",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-27",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-28",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-29",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-30",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2021-12-31",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-01",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-02",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-03",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-04",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-05",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-06",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-07",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-08",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-09",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-10",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-11",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-12",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-13",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-14",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-15",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-16",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-17",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-18",
 			"fips": "60",
-			"cases": "1",
+			"cases": "11",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-19",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-20",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-21",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-22",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-23",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-24",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-25",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-26",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-27",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-28",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-29",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-30",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-01-31",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-01",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-02",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-03",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-04",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-05",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-06",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-07",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-08",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-09",
 			"fips": "60",
-			"cases": "1",
+			"cases": "18",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-10",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-11",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-12",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-13",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-14",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-15",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-16",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-17",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-18",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-19",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-20",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-21",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-22",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-23",
 			"fips": "60",
-			"cases": "1",
+			"cases": "57",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-24",
 			"fips": "60",
-			"cases": "1",
+			"cases": "72",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-25",
 			"fips": "60",
-			"cases": "1",
+			"cases": "72",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-26",
 			"fips": "60",
-			"cases": "1",
+			"cases": "84",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-27",
 			"fips": "60",
-			"cases": "1",
+			"cases": "84",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-02-28",
 			"fips": "60",
-			"cases": "1",
+			"cases": "85",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-01",
 			"fips": "60",
-			"cases": "1",
+			"cases": "94",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-02",
 			"fips": "60",
-			"cases": "1",
+			"cases": "135",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-03",
 			"fips": "60",
-			"cases": "1",
+			"cases": "154",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-04",
 			"fips": "60",
-			"cases": "1",
+			"cases": "215",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-05",
 			"fips": "60",
-			"cases": "1",
+			"cases": "229",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-06",
 			"fips": "60",
-			"cases": "1",
+			"cases": "243",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-07",
 			"fips": "60",
-			"cases": "1",
+			"cases": "291",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-08",
 			"fips": "60",
-			"cases": "1",
+			"cases": "291",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-09",
 			"fips": "60",
-			"cases": "1",
+			"cases": "343",
 			"deaths": "0"
 		},
 		{
 			"date": "2022-03-10",
 			"fips": "60",
-			"cases": "1",
+			"cases": "382",
 			"deaths": "0"
 		}
 	]
